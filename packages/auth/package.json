@@ -37,6 +37,7 @@
     "firebase-admin": "10.1.0",
     "gotrue-js": "0.9.29",
     "jest": "28.0.3",
+    "jest-environment-jsdom": "^28.0.2",
     "magic-sdk": "8.1.1",
     "netlify-identity-widget": "1.9.2",
     "react": "17.0.2",
