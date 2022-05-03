@@ -5921,7 +5921,7 @@ __metadata:
     humanize-string: 2.1.0
     jest: 27.5.1
     jsonwebtoken: 8.5.1
-    jwks-rsa: 2.0.5
+    jwks-rsa: 2.1.0
     md5: 2.3.0
     pascalcase: 1.0.0
     pino: 7.11.0
@@ -13868,7 +13868,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"debug@npm:4, debug@npm:^4.0.0, debug@npm:^4.1.0, debug@npm:^4.1.1, debug@npm:^4.3.1, debug@npm:^4.3.2, debug@npm:^4.3.3":
+"debug@npm:4, debug@npm:^4.0.0, debug@npm:^4.1.0, debug@npm:^4.1.1, debug@npm:^4.3.1, debug@npm:^4.3.2, debug@npm:^4.3.3, debug@npm:^4.3.4":
   version: 4.3.4
   resolution: "debug@npm:4.3.4"
   dependencies:
@@ -20760,16 +20760,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jwks-rsa@npm:2.0.5, jwks-rsa@npm:^2.0.2, jwks-rsa@npm:^2.0.4":
-  version: 2.0.5
-  resolution: "jwks-rsa@npm:2.0.5"
+"jwks-rsa@npm:2.1.0, jwks-rsa@npm:^2.0.2, jwks-rsa@npm:^2.0.4":
+  version: 2.1.0
+  resolution: "jwks-rsa@npm:2.1.0"
   dependencies:
     "@types/express-jwt": 0.0.42
-    debug: ^4.3.2
+    debug: ^4.3.4
     jose: ^2.0.5
     limiter: ^1.1.5
     lru-memoizer: ^2.1.4
-  checksum: 8faa3d0a1cce1326474717cef4a0f33dab03b2075340c7b55452fda064a468a453c67bf79e1a94361c61a88f33c7b2375f1d630867c5457c4f571e8ed4dc1f57
+  checksum: 47e68c8eea40eaaf0a07044e938878837dba2877b4b56072f8520db3ae6f854a195bd39e4a091ebe9443ec8236c1ddc1fb47f6ad39a975b0b23837e78cf85436
   languageName: node
   linkType: hard
 
