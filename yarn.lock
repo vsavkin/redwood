@@ -5894,7 +5894,7 @@ __metadata:
     jwks-rsa: 2.0.5
     md5: 2.3.0
     pascalcase: 1.0.0
-    pino: 7.11.0
+    pino: 8.0.0
     split2: 4.1.0
     title-case: 3.0.3
     typescript: 4.7.3
@@ -23530,10 +23530,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"on-exit-leak-free@npm:^0.2.0":
-  version: 0.2.0
-  resolution: "on-exit-leak-free@npm:0.2.0"
-  checksum: d4e1f0bea59f39aa435baaee7d76955527e245538cffc1d7bb0c165ae85e37f67690aa9272247ced17bad76052afdb45faf5ea304a2248e070202d4554c4e30c
+"on-exit-leak-free@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "on-exit-leak-free@npm:1.0.0"
+  checksum: f97a73751760a459e7b20dbd8f8ae46c9d0a17307e83492c48cd06e7f9f11f59a08f41b8251e573f3577f9f9996ef9d661a2cf42102386bccf0a27c9e05b569d
   languageName: node
   linkType: hard
 
@@ -24441,31 +24441,31 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pino-std-serializers@npm:^4.0.0":
-  version: 4.0.0
-  resolution: "pino-std-serializers@npm:4.0.0"
-  checksum: 9e8ccac9ce04a27ccc7aa26481d431b9e037d866b101b89d895c60b925baffb82685e84d5c29b05d8e3d7c146d766a9b08949cb24ab1ec526a16134c9962d649
+"pino-std-serializers@npm:^5.0.0":
+  version: 5.5.0
+  resolution: "pino-std-serializers@npm:5.5.0"
+  checksum: 4539b54929010a5e5dae0fd710e033e07e85f19daacb527ade04df96e97bce4040dec2c9b889de1aebb76773e57818277c058a33709d34bf9ec30592b43f8aed
   languageName: node
   linkType: hard
 
-"pino@npm:7.11.0":
-  version: 7.11.0
-  resolution: "pino@npm:7.11.0"
+"pino@npm:8.0.0":
+  version: 8.0.0
+  resolution: "pino@npm:8.0.0"
   dependencies:
     atomic-sleep: ^1.0.0
     fast-redact: ^3.0.0
-    on-exit-leak-free: ^0.2.0
+    on-exit-leak-free: ^1.0.0
     pino-abstract-transport: v0.5.0
-    pino-std-serializers: ^4.0.0
-    process-warning: ^1.0.0
+    pino-std-serializers: ^5.0.0
+    process-warning: ^2.0.0
     quick-format-unescaped: ^4.0.3
     real-require: ^0.1.0
     safe-stable-stringify: ^2.1.0
-    sonic-boom: ^2.2.1
-    thread-stream: ^0.15.1
+    sonic-boom: ^3.0.0
+    thread-stream: ^1.0.0
   bin:
     pino: bin.js
-  checksum: 4cc1ed9d25a4bc5d61c836a861279fa0039159b8f2f37ec337e50b0a61f3980dab5d2b1393daec26f68a19c423262649f0818654c9ad102c35310544a202c62c
+  checksum: 1b905cdf604a2291474a85c17fc9203a91242a04a5f189d4f207df93050bf2109729d85755fbd9d566f72e3beb5798032554e217a652957b542916344f2521e7
   languageName: node
   linkType: hard
 
@@ -25197,6 +25197,13 @@ __metadata:
   version: 1.0.0
   resolution: "process-warning@npm:1.0.0"
   checksum: 43ec4229d64eb5c58340c8aacade49eb5f6fd513eae54140abf365929ca20987f0a35c5868125e2b583cad4de8cd257beb5667d9cc539d9190a7a4c3014adf22
+  languageName: node
+  linkType: hard
+
+"process-warning@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "process-warning@npm:2.0.0"
+  checksum: b3afebd724b6a78f2c229ad0d32367b6980ac81055d9b43818b99e09486158028cea7d5442d337721f702329af4a96af7696f6d1b76eee52f388734fdb04311f
   languageName: node
   linkType: hard
 
@@ -27902,12 +27909,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sonic-boom@npm:^2.2.1":
-  version: 2.6.0
-  resolution: "sonic-boom@npm:2.6.0"
+"sonic-boom@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "sonic-boom@npm:3.0.0"
   dependencies:
     atomic-sleep: ^1.0.0
-  checksum: 11e40e811f1a21554fcdd90d26ae5f6b6851cd9a15a9fe717cb1daa29a33012a39a200751dbe56d1f05bde1024c99f6c2deb9cd35247477c61a79cf83c68a96d
+  checksum: 53ead1776a8dec2811d527a38ed9c889c318bf5da90cceb68539f0060b9a7ea3a5c20d97a7681f2848c4a06232be8c8051e3ea333d4212cc1cc020242c237137
   languageName: node
   linkType: hard
 
@@ -29209,12 +29216,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"thread-stream@npm:^0.15.1":
-  version: 0.15.2
-  resolution: "thread-stream@npm:0.15.2"
+"thread-stream@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "thread-stream@npm:1.0.0"
   dependencies:
     real-require: ^0.1.0
-  checksum: f92f1b5a9f3f35a72c374e3fecbde6f14d69d5325ad9ce88930af6ed9c7c1ec814367716b712205fa4f06242ae5dd97321ae2c00b43586590ed4fa861f3c29ae
+  checksum: 0b393b8e300878be6a823366db98933396458ae3facc79684af4d0c3402a9b3cfeb5efd4594a171a59dc6b483b2560bdbfbe24e94f7fe6d5242ab3a65db9e671
   languageName: node
   linkType: hard
 
